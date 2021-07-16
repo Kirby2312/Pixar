@@ -1,0 +1,92 @@
+h1{
+	color: black;
+	font-weight: bolder;
+	font-size: 400%;
+	text-align: left;
+	transform: translate(30%, 200%);
+
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.classic{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+#logo{
+	width: 30%;
+	height: 150px;
+	transform: translate(10%,20%);
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: lightcyan;
+}
+
+p{
+	font-size: 150%;
+	color: black;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner{
+	display: flex;
+}
+
+#logo, h1, #topbanner>h2, #login{
+	position: absolute;
+}
+
+#topbanner>h2{
+	font-size: 200%;
+	transform: translate(45%, 1300%);
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+h2{
+	padding: 20px;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+}
+
+ol,ul{
+	padding-bottom: 20px;
+}
+
+.icon{
+	width: 30px;
+}
+
+#login{
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	transform: translate(2000%,30%);
+}
